@@ -1,38 +1,72 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@font-face {
+  font-family: 'recharge';
+  src: url('./assets/fonts/recharge_bd.ttf');
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: 'neuropolitical';
+  src: url('./assets/fonts/neuropolitical.ttf');
+}
+* {
+  scroll-behavior: smooth;
+}
+.slider-gap .slick-slide{
+padding: 0 12px;
+}
+.ff-rech {
+  font-family: 'recharge';
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.ff-neu {
+  font-family: 'neuropolitical';
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.bg-size{
+  background-size: 100% 100%;
 }
-
-.App-link {
-  color: #61dafb;
+.no-scroll::-webkit-scrollbar {
+  display: none;
 }
-
-@keyframes App-logo-spin {
-  from {
+@keyframes ai {
+  0% {
     transform: rotate(0deg);
   }
-  to {
+
+  100% {
     transform: rotate(360deg);
   }
+
 }
+.aiimg {
+  animation: ai;
+  animation-duration: 15000ms;
+  animation-direction: reverse;
+  animation-iteration-count: infinite;
+}
+.slick-list {
+  overflow: visible !important;
+  position: relative;
+  z-index: 1;
+}
+
+
+.blockchain .slick-list::after {
+  content: ' ';
+  position: absolute;
+  top: 0px;
+  bottom: -92px;
+  width: 40000px;
+  right: 103.6%;
+  background-color: #000;
+}
+/* @media (min-width:576px) and (max-width:670px) {
+  .circle {
+      left: 0 !important;
+    }
+}
+@media (min-width:470px) and (max-width:576px) {
+  .circle {
+      left: -9% !important;
+    }
+} */
