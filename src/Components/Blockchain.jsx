@@ -37,7 +37,7 @@ const Blockchain = () => {
           className="w-[58px] h-[58px] rounded-full bg-[#040404]  shadow-[inset_0px_4px_16px_0px#02CDCF99] flex justify-center items-center
                 "
         >
-          <span className="text-white sm:text-[32px] text-2xl font-recharge font-bold text-center">
+          <span className="text-white sm:text-[32px] text-2xl ff-rech font-bold text-center">
             {mycard.num}
           </span>
         </div>
