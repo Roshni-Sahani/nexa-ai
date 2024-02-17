@@ -8,10 +8,10 @@ function Mynav() {
     document.body.classList.toggle("max-lg:!overflow-hidden");
   }
   return (
-    <div className="xl:px-[30px]">
+    <div className="xl:px-[30px] pt-4">
       <div className="pt-[13px] bg-[url(./assets/images/bgimg.webp)]  flex flex-col bg-center bg-cover  object-cover bg-no-repeat lg:bg-bgSize xl:min-h-screen">
         <nav className="max-w-[1300px] lg:pr-3 lg:pl-32 px-3 ">
-          <div className="flex items-center   py-4 justify-between">
+          <div className="flex items-center  py-4 justify-between">
             <div></div>
             <ul
               className={`flex items-center gap-[20px] mb-0 py-[21px] justify-center mobileView ${

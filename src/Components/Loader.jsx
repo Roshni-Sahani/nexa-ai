@@ -1,5 +1,6 @@
 import React from "react";
 import loaderimg from "../assets/images/loaderimg.gif";
+import logo from "../assets/images/logo.png";
 
 const Loader = () => {
   return (
@@ -13,6 +14,12 @@ const Loader = () => {
                 alt="loaderimg"
                 className="w-[40%] h-[40%]"
               />
+            </div>
+            <div className="flex justify-center">
+              <p className="ff-rech text-[70px] font-bold text-center text-[#02CDCF]">
+                Nex
+              </p>
+              <img src={logo} alt="logo" className="pl-3" />
             </div>
           </h1>
         </div>

@@ -17,7 +17,7 @@ const Unique = () => {
             ability to engage in natural, fluent conversations in over 15
             languages,
           </p>
-          <div className="overflow-y-scroll no-scroll  h-[570px]">
+          <div className="overflow-y-scroll no-scroll h-[570px]">
             <div className="flex flex-row flex-wrap">
               <div className="md:w-1/2 px-3 w-full">
                 <div className="md:max-w-[364px] bg-white rounded-[16px] sm:px-[24px] px-4 sm:py-[30px] py-4 md:mb-[150px] mb-5">
