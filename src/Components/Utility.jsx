@@ -162,6 +162,7 @@ const Utility = () => {
         className="absolute top-0 right-[1%]"
       />
       <div className="w-[288px] h-[288px] blur-[200px] bg-[#02CDCF] rounded-full absolute top-[50%] right-0 z-[-1]"></div>
+      
     </div>
   );
 };

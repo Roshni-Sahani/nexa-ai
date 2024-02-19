@@ -2,11 +2,6 @@ import React, { useState } from "react";
 import Button from "./Button";
 
 function Mynav() {
-  // const [show, setshow] = useState(true);
-  // function view() {
-  //   setshow(!show);
-  //   document.body.classList.toggle("max-lg:!overflow-hidden");
-  // }
   const [show, setshow] = useState(true);
   function view() {
     setshow(!show);
@@ -17,11 +12,11 @@ function Mynav() {
     }
   }
   return (
-    <div className="xl:px-[30px] pt-4">
-      <div className="pt-[13px] bg-[url(./assets/images/bgimg.webp)]  flex flex-col bg-center bg-cover  object-cover bg-no-repeat lg:bg-bgSize xl:min-h-screen">
-        <nav className="max-w-[1300px] lg:pr-3 lg:pl-32 px-3 ">
+    <div className="xl:px-[30px] pt-4 relative z-[1]">
+      <div className="pt-[13px] bg-[url(./assets/images/bgimg.webp)]  flex flex-col bg-right lg:bg-center bg-cover  object-cover bg-no-repeat lg:bg-bgSize xl:min-h-screen">
+        <nav className="container max-w-[1300px] mx-auto lg:pr-3 lg:pl-32 px-3 ">
           <div className="flex items-center  py-4 justify-between">
-            <div></div>
+            <div className="hidden md:block"></div>
             <ul
               className={`flex items-center gap-[20px] mb-0 py-[21px] justify-center mobileView ${
                 show ? "right-[-100%]" : "right-0"
@@ -95,7 +90,7 @@ function Mynav() {
           </div>
         </nav>
         <div className="flex-grow flex justify-center flex-col">
-          <div className="max-w-[1140px] px-3 sm:pl-24 pl-[24px] max-xl:pt-[60px] max-xl:pb-[60px]">
+          <div className="container max-w-[1140px] mx-auto px-3  max-xl:pt-[60px] max-xl:pb-[60px]">
             <h2 className="ff-rech  font-normal text-white lg:text-[60px] sm:text-5xl text-3xl lg:leading-[75px] max-w-[577px]">
               <span className=" text-[#02CDCF]  ">Nexai</span> is an advanced
               AI-powered home assistant
@@ -109,6 +104,7 @@ function Mynav() {
             </div>
           </div>
         </div>
+        <div className="w-[262px] h-[262px] blur-[200px] bg-[#02CDCF] rounded-full absolute top-[20%] left-0 z- [-1]"></div>
       </div>
     </div>
   );

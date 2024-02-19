@@ -43,6 +43,7 @@ const Nexai = () => {
         </div>
       </div>
       <div className="w-[288px] h-[288px] blur-[200px] bg-[#02CDCF] rounded-full absolute top-[20%] right-0 z-[-1]"></div>
+      <div className="w-[288px] h-[288px] blur-[200px] bg-[#02CDCF] rounded-full absolute top-[20%] right-0"></div>
     </div>
   );
 };

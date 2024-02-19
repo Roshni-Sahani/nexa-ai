@@ -1,5 +1,5 @@
 import React from "react";
-import artboardimg from "../assets/images/artboardimg.png";
+import artboardimg from "../assets/images/artboardimg.webp"
 import Button from "./Button";
 const Homeassistant = () => {
   return (
