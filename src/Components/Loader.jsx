@@ -19,7 +19,7 @@ const Loader = () => {
               <p className="ff-rech text-[70px] font-bold text-center text-[#02CDCF]">
                 Nex
               </p>
-              <img src={logo} alt="logo" className="pl-3" />
+              <img src={logo} alt="logo" className="pl-3 w-[10%] h-[10%]" />
             </div>
           </h1>
         </div>

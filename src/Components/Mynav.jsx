@@ -2,10 +2,19 @@ import React, { useState } from "react";
 import Button from "./Button";
 
 function Mynav() {
+  // const [show, setshow] = useState(true);
+  // function view() {
+  //   setshow(!show);
+  //   document.body.classList.toggle("max-lg:!overflow-hidden");
+  // }
   const [show, setshow] = useState(true);
   function view() {
     setshow(!show);
-    document.body.classList.toggle("max-lg:!overflow-hidden");
+    if (show === true) {
+      document.body.classList.add("max-lg:overflow-hidden");
+    } else {
+      document.body.classList.remove("max-lg:overflow-hidden");
+    }
   }
   return (
     <div className="xl:px-[30px] pt-4">

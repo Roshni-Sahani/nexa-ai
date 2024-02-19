@@ -1,5 +1,5 @@
 import React from "react";
-import { Clock, Setting } from "./Icon";
+import { Clock, Game, Message, Setting } from "./Icon";
 const Unique = () => {
   return (
     <div
@@ -35,17 +35,16 @@ const Unique = () => {
                   </p>
                 </div>
                 <div className="md:max-w-[364px] bg-white rounded-[16px] px-[24px] py-[30px]">
-                  <Setting />
-                  <p className="lg:text-xl text-sm ff-rech !lg:leading-[32px] font-bold lg:pt-[30px] pt-[5px] pb-[10px]">
-                    Remote Access and File Management
+                  <Message />
+                  <p className="lg:text-xl ff-rech lg:leading-[32px] font-bold lg:pt-[30px] pt-5 lg:pb-[10px]">
+                    Autonomous and Natural Language Communication
                   </p>
                   <p className="font-poppins lg:text-base text-sm font-normal text-[#545454] md:max-w-[316px] lg:pb-5">
                     {" "}
-                    Imagine you're at work, and you realize you forgot to bring
-                    an important file stored on your desktop computer at home.
-                    No worries! Simply open the Nexai app on your phone,
-                    initiate a call with Nexai, and request access to your
-                    computer.{" "}
+                    Nexai goes beyond standard home assistants by taking
+                    proactive initiatives and engaging in natural language
+                    conversations. It communicates with you as if you're talking
+                    to a friend,{" "}
                   </p>
                 </div>
               </div>
@@ -65,17 +64,17 @@ const Unique = () => {
                   </p>
                 </div>
                 <div className="md:max-w-[364px] bg-white rounded-[16px] px-[24px] py-[30px]">
-                  <Setting />
+                  <Game />
                   <p className="lg:text-xl ff-rech lg:leading-[32px] font-bold lg:pt-[30px] pt-5 lg:pb-[10px]">
-                    Remote Access and File Management
+                    Intelligent Contextual Awareness
                   </p>
                   <p className="font-poppins lg:text-base text-sm font-normal text-[#545454] md:max-w-[316px] lg:pb-5">
                     {" "}
-                    Imagine you're at work, and you realize you forgot to bring
-                    an important file stored on your desktop computer at home.
-                    No worries! Simply open the Nexai app on your phone,
-                    initiate a call with Nexai, and request access to your
-                    computer.{" "}
+                    Nexai utilizes the hardware sensors placed throughout your
+                    home to understand your location and deliver relevant
+                    information or actions. For instance, if you're in the
+                    bedroom and there's a smart TV present, Nexai will
+                    automatically display on the TV screen.{" "}
                   </p>
                 </div>
               </div>
