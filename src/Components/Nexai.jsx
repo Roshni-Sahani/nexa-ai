@@ -11,7 +11,7 @@ const Nexai = () => {
     >
       <div className="max-w-[1340px] mx-auto  border border-solid lg:py-[163px] py-[50px] border-[#FCFCFC] rounded-3xl bg-[url(./assets/images/AI-img.webp)] bg-cover bg-center bg-no-repeat">
         <div className="max-w-[1140px] px-3 mx-auto container">
-          <div className="flex flex-row flex-wrap">
+          <div className="flex lg:flex-row flex-wrap flex-col-reverse">
             <div className="lg:w-1/2 px-3 w-full">
               <p className="md:text-[40px] text-[25px] font-bold text-[#02CDCF] leading-[50.4px] ff-rech text-center lg:text-start mx-auto lg:mx-0">
                 What is NexAi?

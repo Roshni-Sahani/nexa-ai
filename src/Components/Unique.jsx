@@ -20,7 +20,7 @@ const Unique = () => {
           <div className="overflow-y-scroll no-scroll h-[570px]">
             <div className="flex flex-row flex-wrap">
               <div className="md:w-1/2 px-3 w-full">
-                <div className="md:max-w-[364px] bg-white rounded-[16px] sm:px-[24px] px-4 sm:py-[30px] py-4 md:mb-[150px] mb-5  hover:shadow-[0px_4px_20px_0px_#02cccfbd] hover:scale-y-110 transition-all duration-500">
+                <div className="md:max-w-[364px] bg-white rounded-[16px] sm:px-[24px] px-4 sm:py-[30px] py-4 md:mb-[150px] mb-5 hover:scale-[1.05] my-3 transition-all duration-700">
                   <Setting />
                   <p className="md:text-xl text-sm ff-rech !lg:leading-[32px] font-bold md::pt-[30px] pt-[5px] pb-[10px]">
                     Remote Access and File Management
@@ -34,7 +34,7 @@ const Unique = () => {
                     computer.{" "}
                   </p>
                 </div>
-                <div className="md:max-w-[364px] bg-white rounded-[16px] px-[24px] py-[30px] hover:shadow-[0px_4px_20px_0px_#02cccfbd] hover:scale-y-110 transition-all duration-500">
+                <div className="md:max-w-[364px] bg-white rounded-[16px] px-[24px] py-[30px] hover:scale-[1.05] my-3 transition-all duration-700">
                   <Message />
                   <p className="lg:text-xl ff-rech lg:leading-[32px] font-bold lg:pt-[30px] pt-5 lg:pb-[10px]">
                     Autonomous and Natural Language Communication
@@ -49,7 +49,7 @@ const Unique = () => {
                 </div>
               </div>
               <div className="md:w-1/2 px-3 md:pt-[300px] flex-col lg:items-end flex pb-10 w-full pt-5">
-                <div className="md:max-w-[364px] bg-white rounded-[16px] px-[24px] py-[30px] md:mb-[150px] mb-5 hover:shadow-[0px_4px_20px_0px_#02cccfbd] hover:scale-y-110 transition-all duration-500">
+                <div className="md:max-w-[364px] bg-white rounded-[16px] px-[24px] py-[30px] md:mb-[150px] mb-5 hover:scale-[1.05] my-3 transition-all duration-700">
                   <Clock />
                   <p className="lg:text-xl  text-sm ff-rech lg:leading-[32px] font-bold lg:pt-[30px] pt-[5px] pb-[10px]">
                     Real-time Home Monitoring
@@ -63,7 +63,7 @@ const Unique = () => {
                     in your home.
                   </p>
                 </div>
-                <div className="md:max-w-[364px] bg-white rounded-[16px] px-[24px] py-[30px] hover:shadow-[0px_4px_20px_0px_#02cccfbd] hover:scale-y-110 transition-all duration-500">
+                <div className="md:max-w-[364px] bg-white rounded-[16px] px-[24px] py-[30px] hover:scale-[1.05] my-3 transition-all duration-700">
                   <Game />
                   <p className="lg:text-xl ff-rech lg:leading-[32px] font-bold lg:pt-[30px] pt-5 lg:pb-[10px]">
                     Intelligent Contextual Awareness

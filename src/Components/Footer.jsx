@@ -36,7 +36,7 @@ const Footer = () => {
                     <li className="font-bold text-[18px] ff-rech leading-[21.6px] text-white">
                       Quick links
                     </li>
-                    <li className="pt-5">
+                    <li className="md:pt-5 pt-3">
                       <a
                         href=""
                         className="font-bold ff-rech leading-[19.2px] text-[#B7BAB9] text-base hover:text-[#fff] after:rounded-[10px] relative after:absolute after:w-0 after:h-[2px] hover:after:absolute after:bottom-[-3px] hover:after:w-full after:left-[50%] transition-all duration-500 after:hover:left-0 after:transition-all after:duration-500 hover:after:bg-[white]"
@@ -91,7 +91,7 @@ const Footer = () => {
                     <li className="font-bold text-[18px] ff-rech leading-[21.6px] text-white">
                       Information's
                     </li>
-                    <li className="pt-5">
+                    <li className="md:pt-5 pt-3">
                       <a
                         href=""
                         className="font-bold ff-rech leading-[19.2px] text-[#B7BAB9] text-base  hover:text-[#fff] after:rounded-[10px] relative after:absolute after:w-0 after:h-[2px] hover:after:absolute after:bottom-[-3px] hover:after:w-full after:left-[50%] transition-all duration-500 after:hover:left-0 after:transition-all after:duration-500 hover:after:bg-[white]"

@@ -13,7 +13,7 @@ function Mynav() {
   }
   return (
     <div className="xl:px-[30px] pt-4 relative z-[1]">
-      <div className="pt-[13px] bg-[url(./assets/images/bgimg.webp)]  flex flex-col bg-right lg:bg-center bg-cover  object-cover bg-no-repeat lg:bg-bgSize xl:min-h-screen">
+      <div className="pt-[13px] bg-[url(./assets/images/bgimg.webp)]  flex flex-col bg-right lg:bg-center bg-cover z-50 object-cover bg-no-repeat lg:bg-bgSize xl:min-h-screen ">
         <nav className="container max-w-[1300px] mx-auto lg:pr-3 lg:pl-32 px-3 ">
           <div className="flex items-center  py-4 justify-between">
             <div className="hidden md:block"></div>

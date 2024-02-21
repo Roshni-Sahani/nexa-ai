@@ -4,7 +4,7 @@ import Button from "./Button";
 const Homeassistant = () => {
   return (
     <div
-      className="lg:pt-[80px] lg:pb-[120px] pb-[80px] relative z-[1] pt-[50px]"
+      className="lg:pt-[80px] lg:pb-[120px] pb-[80px] relative  pt-[50px]"
       id="home"
     >
       <div className="container xl:max-w-[1246px] xl:px-3 mx-auto">
@@ -53,7 +53,7 @@ const Homeassistant = () => {
           </div>
         </div>
       </div>
-      <div className="w-[288px] h-[288px] blur-[200px] bg-[#02CDCF] rounded-full absolute top-[20%] right-0 z-[-1]"></div>
+      <div className="w-[288px] h-[288px] blur-[200px] bg-[#02CDCF] rounded-full absolute top-[20%] right-0 "></div>
     </div>
   );
 };

@@ -3,6 +3,6 @@
 @tailwind utilities;
 @layer components {
     .mobileView {
-        @apply max-lg:bg-[#00141b] z-20 max-lg:gap-5 max-lg:fixed max-lg:items-center max-lg:justify-center max-lg:flex-col max-lg:top-0 max-lg:w-full max-lg:h-full duration-300
+        @apply max-lg:bg-[#00141b]  max-lg:z-[5] max-lg:gap-5 max-lg:fixed max-lg:items-center max-lg:justify-center max-lg:flex-col max-lg:top-0 max-lg:w-full max-lg:h-screen duration-300
     }
 }

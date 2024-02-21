@@ -152,7 +152,7 @@ const Nexaslider = () => {
   const sliderdata1 = data.map((data, i) => (
     <div
       key={i}
-      className="h-[220px] w-[340px] rounded-[16px]  shadow-[0px_4px_20px_0px_#02CDCF29] bg-[#090909] py-[72px] mx-4"
+      className="h-[220px] w-[340px] rounded-[16px]  shadow-[0px_4px_20px_0px_#02CDCF29] bg-[#090909] py-[72px] mx-4 hover:scale-[1.03] duration-500 transition-all"
     >
       <p className="ff-rech text-white md:text-[24px] sm:text-xl text-base leading-[38.4px] font-bold max-w-[254px] text-center mx-auto">
         {data.para}
@@ -162,7 +162,7 @@ const Nexaslider = () => {
   const sliderdata2 = data.map((data, i) => (
     <div
       key={i}
-      className="h-[220px] w-[340px] rounded-[16px]  shadow-[0px_4px_20px_0px_#02CDCF29] bg-[#090909] py-[72px] mx-4"
+      className="h-[220px] w-[340px] rounded-[16px]  shadow-[0px_4px_20px_0px_#02CDCF29] bg-[#090909] py-[72px] mx-4 hover:scale-[1.03] duration-500 transition-all"
     >
       <p className="ff-rech text-white md:text-[24px] sm:text-xl text-base leading-[38.4px] font-bold max-w-[254px] text-center mx-auto">
         {data.para}
@@ -172,7 +172,7 @@ const Nexaslider = () => {
   const sliderdata3 = data.map((data, i) => (
     <div
       key={i}
-      className=" mx-4 h-[220px] w-[340px] rounded-[16px] shadow-[0px_4px_20px_0px_#02CDCF29] bg-[#090909] py-[72px]"
+      className=" mx-4 h-[220px] w-[340px] rounded-[16px] shadow-[0px_4px_20px_0px_#02CDCF29] bg-[#090909] py-[72px] hover:scale-[1.03] duration-500 transition-all"
     >
       <p className="ff-rech text-white md:text-[24px] sm:text-xl text-base leading-[38.4px] font-bold max-w-[254px] text-center mx-auto">
         {data.para}
