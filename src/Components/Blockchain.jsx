@@ -14,7 +14,7 @@ const mycard = [
   {
     num: 2,
     text: "Transparent and Reliable Data Management",
-    class: "translate-y-20",
+    class: "lg:translate-y-20",
   },
   {
     num: 3,
@@ -23,7 +23,7 @@ const mycard = [
   {
     num: 4,
     text: "Automated and Transparent Transactions",
-    class: "translate-y-20",
+    class: "lg:translate-y-20",
   },
 ];
 const Blockchain = () => {
