@@ -27,9 +27,9 @@ const Utility = () => {
             data-aos-duration="1500"
           >
             <div className="flex flex-row flex-wrap relative">
-              <div className="h-[85%] w-[8px] bg-[#02CDCF] absolute"></div>
-              <div className=" flex ml-[-21px]">
-                <div className="lg:w-2/12 w-[12%] px-3">
+              <div className="h-full w-[8px] bg-[#02CDCF] absolute rounded-[8px]"></div>
+              <div className=" flex lg:ml-[-42px] md:ml-[-44px] sm:ml-[-36px] ml-[-17px]">
+                <div className="lg:w-2/12 w-[12%] px-3 flex justify-center items-center">
                   <div className="rounded-full w-[24px] h-[24px] absolute bg-white">
                     {" "}
                   </div>
@@ -48,8 +48,8 @@ const Utility = () => {
                   </p>
                 </div>
               </div>
-              <div className=" flex ml-[-21px]">
-                <div className="lg:w-2/12  w-[12%] px-3">
+              <div className=" flex lg:ml-[-42px] md:ml-[-44px] sm:ml-[-36px] ml-[-17px]">
+                <div className="lg:w-2/12  w-[12%] px-3 flex justify-center items-center">
                   <div className="rounded-full w-[24px] h-[24px] absolute bg-white">
                     {" "}
                   </div>
@@ -67,8 +67,8 @@ const Utility = () => {
                   </p>
                 </div>
               </div>
-              <div className=" flex ml-[-21px]">
-                <div className="lg:w-2/12  w-[12%] px-3">
+              <div className=" flex lg:ml-[-42px] md:ml-[-44px] sm:ml-[-36px] ml-[-17px]">
+                <div className="lg:w-2/12  w-[12%] px-3 flex justify-center items-center">
                   <div className="rounded-full w-[24px] h-[24px] absolute bg-white">
                     {" "}
                   </div>
@@ -89,8 +89,8 @@ const Utility = () => {
                   </p>
                 </div>
               </div>{" "}
-              <div className=" flex ml-[-21px]">
-                <div className="lg:w-2/12 w-[12%] px-3">
+              <div className=" flex lg:ml-[-42px] md:ml-[-44px] sm:ml-[-36px] ml-[-17px]">
+                <div className="lg:w-2/12 w-[12%] px-3 flex items-center justify-center">
                   <div className="rounded-full w-[24px] h-[24px] absolute bg-white">
                     {" "}
                   </div>
@@ -110,8 +110,8 @@ const Utility = () => {
                   </p>
                 </div>
               </div>
-              <div className=" flex ml-[-21px]">
-                <div className="lg:w-2/12 w-[12%] px-3">
+              <div className=" flex lg:ml-[-42px] md:ml-[-44px] sm:ml-[-36px] ml-[-17px]">
+                <div className="lg:w-2/12 w-[12%] px-3 flex justify-center items-center">
                   <div className="rounded-full w-[24px] h-[24px] absolute bg-white">
                     {" "}
                   </div>
@@ -131,8 +131,8 @@ const Utility = () => {
                   </p>
                 </div>
               </div>
-              <div className=" flex ml-[-21px]">
-                <div className="lg:w-2/12 w-[12%] px-3">
+              <div className=" flex lg:ml-[-42px] md:ml-[-44px] sm:ml-[-36px] ml-[-17px]">
+                <div className="lg:w-2/12 w-[12%] px-3 flex justify-center items-center">
                   <div className="rounded-full w-[24px] h-[24px] absolute bg-white">
                     {" "}
                   </div>
@@ -162,7 +162,6 @@ const Utility = () => {
         className="absolute top-0 right-[1%]"
       />
       <div className="w-[288px] h-[288px] blur-[200px] bg-[#02CDCF] rounded-full absolute top-[50%] right-0 z-[-1]"></div>
-      
     </div>
   );
 };
