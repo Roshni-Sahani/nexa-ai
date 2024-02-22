@@ -1,16 +1,16 @@
 import React from "react";
-import artboardimg from "../assets/images/artboardimg.webp"
+import artboardimg from "../assets/images/artboardimg.webp";
 import Button from "./Button";
 const Homeassistant = () => {
   return (
     <div
-      className="lg:pt-[80px] lg:pb-[120px] pb-[80px] relative  pt-[50px]"
+      className="lg:pt-[80px] lg:pb-[120px] pb-[80px] relative pt-[50px]"
       id="home"
     >
       <div className="container xl:max-w-[1246px] xl:px-3 mx-auto">
         <div className="flex flex-wrap flex-row">
           <div className="lg:w-1/2 px-3 w-full flex justify-center">
-            <img src={artboardimg} alt="artboardimg" />
+            <img src={artboardimg} alt="artboardimg" className="max-w-[90%]" />
             <div className="w-[288px] h-[288px] blur-[200px] bg-[#02CDCF] rounded-full absolute top-[20%] left-[14%] z-[-1]"></div>
           </div>
           <div className="lg:w-1/2 px-3 w-full flex flex-col justify-center">
