@@ -29,10 +29,7 @@ const Homeassistant = () => {
               that brings the future to your fingertips. With its ability to
               engage in natural, fluent conversations in over 15 languages,
             </p>
-            <p
-              className="font-poppins text-base font-normal text-[#B4B4B4] max-w-[517px] pb-1.5 leading-[25.6px] text-center lg:text-start lg:mx-0 mx-auto"
-              data-aos="fade-up"
-            >
+            <p className="font-poppins text-base font-normal text-[#B4B4B4] max-w-[517px] pb-1.5 leading-[25.6px] text-center lg:text-start lg:mx-0 mx-auto">
               Nexai offers an incredibly futuristic experience. It can take the
               initiative to ask about your day, schedule meetings, provide
               timely reminders

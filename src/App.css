@@ -60,13 +60,24 @@ padding: 0 12px;
   right: 103.6%;
   background-color: #000;
 }
-/* @media (min-width:576px) and (max-width:670px) {
-  .circle {
-      left: 0 !important;
-    }
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
 }
-@media (min-width:470px) and (max-width:576px) {
-  .circle {
-      left: -9% !important;
-    }
-} */
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #02CDCF;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000;
+}
